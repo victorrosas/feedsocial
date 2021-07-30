@@ -4,7 +4,7 @@ import ProfileBar from '../ProfileBar';
 import Main from '../Main';
 import SideBar from '../SideBar';
 
-import { Container, Wrapper,  MainWrapper} from './styles';
+import { Container, Wrapper,  MainWrapper, SideBarContainer} from './styles';
 
 function Layout() {
   return (
@@ -19,7 +19,10 @@ function Layout() {
           <Main />
         </MainWrapper>
 
-        <SideBar />
+        <SideBarContainer>
+          <SideBar />
+        </SideBarContainer>
+
       </Wrapper>
     </Container>
   );

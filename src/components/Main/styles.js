@@ -22,10 +22,7 @@ export const Container = styled.div`
   background: white;
   border-radius: 12px;
   padding: 15px;
-  
   margin-bottom: 15px;
-
-  
 `;
 
 export const PostShared = styled.div`

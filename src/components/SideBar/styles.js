@@ -19,8 +19,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-height: 400px;
-
   border-radius: 10px;
 
   background: var(--white);
@@ -120,6 +118,7 @@ export const Footer = styled.div`
   justify-content: space-between;
   margin-left: 10px;
   padding-right: 20px;
+  margin-bottom: 15px;
 `;
 
 export const ActivitySquare = styled.div`
@@ -127,14 +126,22 @@ export const ActivitySquare = styled.div`
   background: transparent;
   border-radius: 10px;
   width: 100px;
+  justify-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 `;
 
 export const Title = styled.div`
- background: red;
  display: flex;
- align-items: center;
+ flex: 1;
+ justify-content: center;
+ padding-bottom: 5px;
 
   > span {
+    font-size: 13px;
+    font-weight: bold;
     color: var(--primary);
 
   }
@@ -144,16 +151,26 @@ export const Data = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 5px;
+  padding: 1px;
 `;
 
 export const Line1 = styled.div`
   display: flex;
   justify-content: space-between;
+
+  width: 100%;
+
+  border-bottom: solid 1px var(--gray);
+
   > span {
+    font-size: 13px;
+    margin-bottom: 2px;
+
     color: var(--primary);
   }
   > p {
+    font-size: 13px;
+
     color: var(--primary);
   }
 `;
@@ -161,11 +178,19 @@ export const Line1 = styled.div`
 export const Line2 = styled.div`
  display: flex;
   justify-content: space-between;
+
+  border-bottom: solid 1px var(--gray);
+
+
   > span {
+    font-size: 13px;
+    margin-bottom: 2px;
+
     color: var(--primary);
   }
 
   > p {
+    font-size: 13px;
     color: var(--primary);
   }
 `;
@@ -174,13 +199,38 @@ export const Line3 = styled.div`
  display: flex;
   justify-content: space-between;
   > span {
+    font-size: 13px;
+    margin-bottom: 2px;
+
     color: var(--primary);
   }
 
   > p {
+    font-size: 13px;
     color: var(--primary);
   }
 `;
 
+export const ProjectSquare = styled.div`
+   border: solid 1px var(--green);
+  background: transparent;
+  border-radius: 10px;
+  width: 100px;
+  justify-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+`;
 
-
+export const TotalSquare = styled.div`
+   border: solid 1px var(--orange);
+  background: transparent;
+  border-radius: 10px;
+  width: 100px;
+  justify-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+`;

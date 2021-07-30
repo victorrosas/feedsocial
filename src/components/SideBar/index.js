@@ -16,6 +16,8 @@ import {
   RightTotal,
   Footer,
   ActivitySquare,
+  ProjectSquare,
+  TotalSquare,
   Title,
   Data,
   Line1,
@@ -75,65 +77,65 @@ function SideBar() {
         </Title>
         <Data>
           <Line1>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line1>
 
           <Line2>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line2>
 
           <Line3>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line3>
         </Data>
       </ActivitySquare>
 
-      <ActivitySquare>
+      <ProjectSquare>
         <Title>
           <span>Projetos</span>
         </Title>
         <Data>
           <Line1>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line1>
 
           <Line2>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line2>
 
           <Line3>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line3>
         </Data>
-      </ActivitySquare>
+      </ProjectSquare>
 
-      <ActivitySquare>
+      <TotalSquare>
       <Title>
           <span>Total</span>
         </Title>
         <Data>
           <Line1>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line1>
 
           <Line2>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line2>
 
           <Line3>
-            <span>Pedentes</span>
+            <span>Pendentes</span>
             <p>3</p>
           </Line3>
         </Data>
-      </ActivitySquare>
+      </TotalSquare>
     </Footer>
 
     </Container>
