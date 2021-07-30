@@ -6,14 +6,13 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-width: 100%;
+  max-height: 420px;
 
   width: 300px;
-
-
   border-radius: 10px;
 
-  background: white;
+  background: var(--white);
+
 `;
 
 export const Banner = styled.div`

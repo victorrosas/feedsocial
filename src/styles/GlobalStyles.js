@@ -37,5 +37,7 @@ export default createGlobalStyle`
      --like-light-hover: #ccebff;
      --background: #e6f2ff;
      --gray: #808080;
+     --green:  #73e600;
+     --orange:  #ffa64d;
    }
 `;

@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProfileBar from '../ProfileBar';
 import Main from '../Main';
+import SideBar from '../SideBar';
 
 import { Container, Wrapper,  MainWrapper} from './styles';
 
@@ -14,9 +15,11 @@ function Layout() {
         <MainWrapper>
           <Main />
           <Main />
+          <Main />
+          <Main />
         </MainWrapper>
 
-        {/* <SideBar /> */}
+        <SideBar />
       </Wrapper>
     </Container>
   );
